@@ -15,7 +15,7 @@
 
 beforeEach(() => {
     cy.visit('/')
-    cy.viewport(1440, 720);
+    cy.viewport(1920, 1080);
     cy.on('uncaught:exception', () => {
        return false;
      });  

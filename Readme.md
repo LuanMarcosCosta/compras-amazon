@@ -1,21 +1,18 @@
 # Automação de Testes com Cypress
-
 Este projeto contém os testes automatizados desenvolvidos com o framework Cypress.
 
 
 ### 📋 Pré-requisitos
-
 Certifique-se de ter as seguintes dependências instaladas em sua máquina:
 
-```
-Node.js (versão 18 ou superior)
-Cypress (versão 12.12.0 ou superior)
+  1. Node.js (versão 18 ou superior)
+  2. Cypress (versão 12.12.0 ou superior)
 
-```
 
 ## ⚙️ Instalacao do Projeto
+Em uma pasta no seu computador, execute o seguinte comando para clonar esse repositório
 ```bash
-  git clone 
+  git clone https://github.com/LuanMarcosCosta/compras-amazon.git
 ```
 
 ## ⚙️ Instale as dependências do projeto:
@@ -26,20 +23,20 @@ Comandos Linha terminal:
  npm install cypress
 ```
 
-
 ## ⚙️ Configrando arquivo cypress.config.js
 Trocar as informacoes conforme o seu projeto
 
-projectId:
-baseUrl:
+  - projectId:
+  - baseUrl: https://www.amazon.com.br/
 
-Obs: O projectId vai ser de acordo com o que o Cypress cloud gerar 
-E a baseUrl tem que ser inserida a url do site que voce vai automatizar
+Obs: 
+  - O projectId vai ser de acordo com o que o Cypress cloud gerar (nesse projeto não vamos ter)
+  - BaseUrl tem que ser inserida a url do site que voce vai automatizar
 
-## ⚙️ Executando os testes
-
+## ⚙️ Executando os testes e executando em modo headless
 ```bash
   npm run cy:open
+  npx cypress run 
 ```
 
 ## 🛠️ Construído com
@@ -60,7 +57,6 @@ E a baseUrl tem que ser inserida a url do site que voce vai automatizar
 ```
 
 ## 📌 Versões das ferramentas utlizadas
-
  * "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
  * "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
  * "cypress": "^12.14.0",
