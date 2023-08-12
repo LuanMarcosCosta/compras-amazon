@@ -1,8 +1,10 @@
 # Automação de Testes com Cypress
+
 Este projeto contém os testes automatizados desenvolvidos com o framework Cypress.
 
 
 ### 📋 Pré-requisitos
+
 Certifique-se de ter as seguintes dependências instaladas em sua máquina:
 
   1. Node.js (versão 18 ou superior)
@@ -34,6 +36,7 @@ Obs:
   - BaseUrl tem que ser inserida a url do site que voce vai automatizar
 
 ## ⚙️ Executando os testes e executando em modo headless
+
 ```bash
   npm run cy:open
   npx cypress run 
@@ -57,6 +60,7 @@ Obs:
 ```
 
 ## 📌 Versões das ferramentas utlizadas
+
  * "@badeball/cypress-cucumber-preprocessor": "^17.0.0",
  * "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
  * "cypress": "^12.14.0",
@@ -70,3 +74,14 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos 
   03. Faça as alterações desejadas e commit: git commit -m "Descrição das modificações".
   04. Envie para o branch remoto: git push origin minha-branch.
   05. Crie um novo Pull Request.
+
+## Bibliografias
+Ao criar este projeto, contei com a colaboração de várias fontes valiosas encontradas na internet. Agradeço às seguintes referências:
+
+
+| Ferramentas/Sites| Descrição   |
+|--------------|--------------|
+| [Readme.so](https://readme.so/pt/editor)       | Para construção  do readme.md     |
+| [Cypress Brasil](https://chat.whatsapp.com/IowlCOf2pRAEXG9FTV55SP)     |  Grupo de WhatsApp       |
+| [QAzando](https://cypress.qazando.com.br/)     | Curso Cypress       |
+
